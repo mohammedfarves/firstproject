@@ -1,0 +1,281 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+}
+a{
+    text-decoration: none;
+}
+header > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px ;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+header h2{
+    color: white;
+    font-family: "Lekton", monospace;
+    font-weight: 700%;
+}
+header nav a{
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+header nav{
+    display: flex;
+    gap: 20px;
+    
+}
+.image {
+    background-image: url("Group\ 1000001771.png");
+    background-size: 100% 100%;
+
+}
+.text-break{
+    display: block;
+}
+.banner{
+    margin: 80px 0 30px 0;
+}
+.content{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    /* gap: 15px;
+    margin:10px;
+    padding-bottom: 50px; */
+
+}
+.content h1{
+   font-family:"Poppins" ,sans-serif;
+   font-weight: 700;
+   color: white;
+   font-size: 70px;
+}
+.content h1 span{
+    display: block;
+}
+.content p{
+    margin: 20px 0px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+.content p span{
+    display: block;
+}
+.btn{
+    margin:30px 0 100px 0;
+   
+}
+
+.btn a{
+padding: 15px 25px;
+background-color: #231A36;
+color: white;
+border-radius: 100px;
+font-size: 15px;
+font-weight: 500;
+font-family: "Inter", sans-serif;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.company-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.company-wrapper >p {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #B2B7BE;
+}
+.company-wrapper nav{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 700px) {
+    .header-wrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .company-wrapper > nav {
+        gap: 20px;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .main-wrapper p > span {
+        display: inline;
+    }
+}
+.marketing{
+    background-color: #EBEBEB;
+}
+.marketing-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.marketing-header h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    padding-top: 30px;
+    font-weight: 600;
+}
+.marketing-header p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #426666;
+
+}
+.marketing-header p span{
+    display: block;
+}
+.marketing-main{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.marketing-main-text p:nth-child(1){
+    color: #414141;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.marketing-main-text h3{
+    color: #1B1BEB;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px ;
+    font-weight: 600;
+}
+.marketing-main-text p:last-child{
+    color: #426666;
+    font-family: "Inter", sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.marketing-main-text p span{
+    display: block;
+}
+.learn-more-button{
+    margin-top: 20px;
+}
+.learn-more-button a{
+    color: #42424A;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+@media only screen and (min-width: 768px) {
+
+    .content h1{
+        font-size: 94px;
+    }
+
+    .text-break{
+       display: block;
+    }
+    .happy-wrapper>div{
+        width:50%;
+        
+}
+}
+@media only screen and (max-width: 700px) {
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .text-break{
+       display: block;
+    }
+
+}
+@media only screen and (max-width: 700px) {
+
+    .company-wrapper{
+       font-size: 15px;
+    }
+    .text-break{
+       display: block;
+    }
+
+}
+@media only screen and (max-width: 700px) {
+
+    .marketing-header h3{
+       font-size: 20px;
+    }
+    .text-break{
+       display: block;
+    }
+    .marketing-header p{
+        font-size: 11px;
+        margin-top: 5px;
+     }
+    }
+     @media only screen and (max-width: 768px){
+        .marketing-main h3{
+            font-size: 25px;
+        }
+        .marketing-main p{
+            font-size: 15px;
+        }
+        .happy-wrapper{
+            flex-direction: column;
+            text-align: center;
+        }
+        .happy-wrapper img{
+            margin-top: 50px;
+        }
+     }
+     .happy{
+        padding: 100px 0px;
+     }
+     .happy-wrapper{
+        display:flex;
+        align-items: center;
+    }
+   
+     .happy-wrapper>div:last-child{
+        text-align:right;
+     }
+     .happy-wrapper>div p{
+        margin-bottom: 50px;
+     }
+     .sec-heading{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+        text-align: center;
+        gap: 5px;
+        font-family: "Poppins", sans-serif;
+     }
+     .sec-heading > h2{
+        position: relative;
+     }
+     .sec-heading> img{
+        position: absolute;
+        top:0px;
+        left:0px;
+
+     }

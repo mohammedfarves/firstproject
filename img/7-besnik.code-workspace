@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../7-besnik"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "7-besnik"
+	}
+}
